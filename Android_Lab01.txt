@@ -1,0 +1,10 @@
+1-2. Luokka (class) on abstarkti tietotyyppi ja olio (object) on luokan ilmentymä.
+3. Luokan ilmentymä (olio) luodaan new-operaattorilla ja konstruktorilla.
+4. Määreet public ja private kuvaavat jäsenen näkyvyyttä. Jäsen, jonka edessä on public-määre,
+on julkinen eli siihen pääsevät käsiksi kaikki. Jäsen, jonka edessä on private-määre, on yksityinen eli siihen on pääsy vain saman luokan metodeilla
+Jos kantaluokan jäsenten näkyvyys halutaan rajoittaa vain siitä johdettuihin luokkiin, kantaluokan jäsenen eteen pannaan protected-määre.
+6. Periytyvyys (inheritance) on OOP:n periaate, mikä edistää ohjelmakoodin uudelleenkäytettävyyttä.
+7. Javassa ei ole moniperintää. Moniperintämäisiä piirteitä tuo Javaan rajapinta-käsite (interface). Rajapinta muistuttaa hyvin paljon abstraktia luokkaa.
+10. Luokkaa, joka esittää jotakin abstraktia käsitettä ja jolle ei pidä voida tehdä ilmentymää, sanotaan abstraktiksi luokaksi (abstract class). Javassa abstrakti luokka kuvataan abstract -määreellä.
+Abstaktille luokalle ei voi luoda ilmentymää. Siitä voidaan ainoastaan periyttää uusia luokkia.
+
