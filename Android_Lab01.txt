@@ -8,3 +8,14 @@ Jos kantaluokan jäsenten näkyvyys halutaan rajoittaa vain siitä johdettuihin 
 10. Luokkaa, joka esittää jotakin abstraktia käsitettä ja jolle ei pidä voida tehdä ilmentymää, sanotaan abstraktiksi luokaksi (abstract class). Javassa abstrakti luokka kuvataan abstract -määreellä.
 Abstaktille luokalle ei voi luoda ilmentymää. Siitä voidaan ainoastaan periyttää uusia luokkia.
 
+
+
+1. Java, C/C++/C#, Kotlin, BASIC, Corona/LUA, PhoneGap(HTML, CSS, JS)
+2. An APK file is an app created for Android
+3.The Android operating system is a multi-user Linux system in which each app is a different user
+4. Activites provides the space to the user for doing anything and everything
+   Services  does long running operations in background
+   Intent and broadcast receivers is a messaging object
+   Widgets and Notifications are the small application views
+5. The manifest file describes essential information about your app to the Android build tools, the Android operating system, and Google Play.
+6.In Android, almost everything is a resource.
