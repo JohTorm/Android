@@ -16,7 +16,7 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
     int ADD_NEW_PART_INTENT_ID = 8976;
 
     private ListView listView;
-    private ViewAdapter viewAdapter;
+
     ArrayList<WorkoutClass> fullWorkout = new ArrayList<>();
     ArrayList<String>  workoutType = new ArrayList<>();
 
@@ -45,7 +45,7 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
 
 
             listView = (ListView) findViewById(R.id.listView);
-            //viewAdapter = new ViewAdapter(this, fullWorkout);
+
 
             final ArrayAdapter<String> aa;
             aa = new ArrayAdapter<String>(this, android.R.layout.simple_list_item_1, workoutType);
@@ -70,6 +70,7 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
 
             intent.putExtra("LIST_TYPE", fullWorkout);
             startActivity(intent);
+
 
 
         }

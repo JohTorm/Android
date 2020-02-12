@@ -37,6 +37,7 @@ public class workoutActivity extends AppCompatActivity implements View.OnClickLi
     @Override
     public void onClick(View view) {
 
+
         EditText textEditor = findViewById(R.id.editText);
 
         String aika = textEditor.getText().toString();
@@ -45,7 +46,14 @@ public class workoutActivity extends AppCompatActivity implements View.OnClickLi
 
         Intent resultIntent = new Intent();
         resultIntent.putExtra("NEW_PART", part);
-        setResult(Activity.RESULT_OK, resultIntent);
-        finish();
+
+        if(part.getType() != null && part.getSeconds() >= 0 ) {
+            setResult(Activity.RESULT_OK, resultIntent);
+            finish();
+        }
+        else {
+            setResult(Activity.RESULT_CANCELED,resultIntent);
+            finish();
+        }
     }
 }
