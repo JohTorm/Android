@@ -55,7 +55,7 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
 
     private void openConnection() {
         try {
-            chatClient = new ChatClient(new URI("ws://192.168.1.35:1337"),this);
+            chatClient = new ChatClient(new URI("ws://localhost:1337"),this);
             chatClient.connect();
         } catch (Exception e) {
             e.printStackTrace();
