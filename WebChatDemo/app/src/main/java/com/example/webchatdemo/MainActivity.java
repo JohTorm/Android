@@ -64,7 +64,9 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
 
     private void openConnection() {
         try {
+
             chatClient = new ChatClient(new URI("ws://obscure-waters-98157.herokuapp.com"),this);
+
             chatClient.connect();
         } catch (Exception e) {
             e.printStackTrace();
