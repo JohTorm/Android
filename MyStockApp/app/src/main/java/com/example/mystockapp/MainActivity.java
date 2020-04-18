@@ -38,11 +38,10 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
         editTextstockID = findViewById(R.id.textEditStockID);
         editTextStockName = findViewById(R.id.textEditStockName);
         findViewById(R.id.buttonAdd).setOnClickListener(this);
-         stockID= "AAPL";
-        String Urli = "https://financialmodelingprep.com/api/company/price/" + stockID + "?datatype=json";
-        new JsonTask().execute(Urli);
+
+
         listView = (ListView)findViewById(R.id.stockListView);
-        listItem.add("Makkara");
+
 
          adapter = new ArrayAdapter<String>(this, android.R.layout.simple_list_item_1,listItem);
         listView.setAdapter(adapter);
@@ -53,12 +52,15 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
     public void onClick(View view) {
         stockName = editTextStockName.getText().toString();
         stockID = editTextstockID.getText().toString();
-        String Urli = "https://financialmodelingprep.com/api/company/price/" + stockID + "?datatype=json";
-        new JsonTask().execute(Urli);
-        adapter.notifyDataSetChanged();
-        editTextstockID.setText("");
-        editTextStockName.setText("");
-    }
+        if(stockName != null && stockName.length()>0 && stockID != null && stockID.length()>0) {
+            String Url = "https://financialmodelingprep.com/api/company/price/" + stockID + "?datatype=json";
+            new JsonTask().execute(Url);
+            adapter.notifyDataSetChanged();
+            editTextstockID.setText("");
+            editTextStockName.setText("");
+        }
+        }
+
 
 
     private  class JsonTask extends AsyncTask<String, String, String>{
@@ -131,7 +133,7 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
                 JSONObject subObj = jObj.getJSONObject(stockID);
                 String price = subObj.getString("price");
                 Log.d("Testi3", price);
-                listItem.add(stockID+ ": " +price);
+                listItem.add(stockName+ ": " +price);
                 String koko = Integer.toString(listItem.size());
 
                 Log.d("testi4",koko);

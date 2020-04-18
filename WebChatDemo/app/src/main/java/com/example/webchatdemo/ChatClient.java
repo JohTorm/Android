@@ -9,6 +9,8 @@ import org.json.JSONException;
 import org.json.JSONObject;
 
 import java.net.URI;
+import java.util.Date;
+
 interface ChatClientInterface{
     void onMessage(String message);
 }
@@ -29,17 +31,8 @@ public class ChatClient extends WebSocketClient {
     @Override
     public void onMessage(String message) {
         Log.d("TESTI",message);
-        try {
-            JSONObject jsonObject = new JSONObject(message);
-            JSONObject subobj = jsonObject.getJSONObject("data");
-            String user = subobj.getString("author");
-            String msg = subobj.getString("text");
-            Log.d("TESTI","Viesti: "+msg);
+        observer.onMessage(message);
 
-            observer.onMessage(user+": "+msg);
-        } catch (JSONException e) {
-            e.printStackTrace();
-        }
 
     }
 

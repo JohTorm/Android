@@ -18,7 +18,7 @@
     <EditText
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:hint="Write message here..."
+        android:hint="Viesti: "
         android:id="@+id/messageEditText"
         app:layout_constraintTop_toBottomOf="@id/closeConnectionButton"
         />

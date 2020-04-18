@@ -16,11 +16,13 @@ import java.net.URI;
 
 public class MainActivity extends AppCompatActivity implements View.OnClickListener, ChatClientInterface {
     ChatClient chatClient = null;
+
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
         findViewById(R.id.sendMessageBtn).setOnClickListener(this);
+
         findViewById(R.id.closeConnectionButton).setOnClickListener(this);
         openConnection();
     }
@@ -31,7 +33,15 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
 
 
         if (v.getId() == R.id.sendMessageBtn) {
-            sendMessage();
+            EditText editor = findViewById(R.id.messageEditText);
+
+            String text = editor.getText().toString();
+            sendMessage(text);
+
+            editor.setText("");
+            editor.setHint(" viesti ");
+
+
         }
         if (v.getId() == R.id.closeConnectionButton) {
             closeConnection();
@@ -45,17 +55,16 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
         }
     }
 
-    private void sendMessage() {
+    private void sendMessage(String txt) {
         if (chatClient != null && chatClient.isOpen()) {
-            EditText editor = findViewById(R.id.messageEditText);
-            String text = editor.getText().toString();
-            chatClient.send(text);
+
+            chatClient.send(txt);
         }
     }
 
     private void openConnection() {
         try {
-            chatClient = new ChatClient(new URI("ws://192.168.1.35:1337"),this);
+            chatClient = new ChatClient(new URI("ws://obscure-waters-98157.herokuapp.com"),this);
             chatClient.connect();
         } catch (Exception e) {
             e.printStackTrace();
