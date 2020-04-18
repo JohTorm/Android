@@ -12,87 +12,10 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="2a2dc7ae-f055-44cf-a055-bba7f5d84f97" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/../CalenderTest/app/src/main/java/com/example/calendertest/CalenderActivity.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../CalenderTest/app/src/main/res/layout/activity_calender.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/src/main/java/com/example/labra3/FootballData.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/src/main/java/com/example/labra3/Utilities.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../TestCalender/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../TestCalender/.idea/codeStyles/Project.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../TestCalender/.idea/gradle.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../TestCalender/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../TestCalender/.idea/runConfigurations.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../TestCalender/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../TestCalender/app/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../TestCalender/app/build.gradle" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../TestCalender/app/proguard-rules.pro" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../TestCalender/app/src/androidTest/java/com/example/testcalender/ExampleInstrumentedTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../TestCalender/app/src/main/AndroidManifest.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../TestCalender/app/src/main/java/com/example/testcalender/Calender.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../TestCalender/app/src/main/java/com/example/testcalender/MainActivity.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../TestCalender/app/src/main/res/drawable-v24/ic_launcher_foreground.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../TestCalender/app/src/main/res/drawable/ic_launcher_background.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../TestCalender/app/src/main/res/layout/activity_calender.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../TestCalender/app/src/main/res/layout/activity_main.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../TestCalender/app/src/main/res/mipmap-anydpi-v26/ic_launcher.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../TestCalender/app/src/main/res/mipmap-anydpi-v26/ic_launcher_round.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../TestCalender/app/src/main/res/mipmap-hdpi/ic_launcher.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../TestCalender/app/src/main/res/mipmap-hdpi/ic_launcher_round.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../TestCalender/app/src/main/res/mipmap-mdpi/ic_launcher.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../TestCalender/app/src/main/res/mipmap-mdpi/ic_launcher_round.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../TestCalender/app/src/main/res/mipmap-xhdpi/ic_launcher.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../TestCalender/app/src/main/res/mipmap-xhdpi/ic_launcher_round.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../TestCalender/app/src/main/res/mipmap-xxhdpi/ic_launcher.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../TestCalender/app/src/main/res/mipmap-xxhdpi/ic_launcher_round.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../TestCalender/app/src/main/res/mipmap-xxxhdpi/ic_launcher.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../TestCalender/app/src/main/res/mipmap-xxxhdpi/ic_launcher_round.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../TestCalender/app/src/main/res/values/colors.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../TestCalender/app/src/main/res/values/strings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../TestCalender/app/src/main/res/values/styles.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../TestCalender/app/src/test/java/com/example/testcalender/ExampleUnitTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../TestCalender/build.gradle" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../TestCalender/gradle.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../TestCalender/gradle/wrapper/gradle-wrapper.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../TestCalender/gradle/wrapper/gradle-wrapper.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../TestCalender/gradlew" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../TestCalender/gradlew.bat" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../TestCalender/settings.gradle" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../MyStockApp/.gitignore" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../MyStockApp/.idea/codeStyles/Project.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../MyStockApp/.idea/gradle.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../MyStockApp/.idea/misc.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../MyStockApp/.idea/runConfigurations.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../MyStockApp/app/.gitignore" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../MyStockApp/app/build.gradle" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../MyStockApp/app/proguard-rules.pro" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../MyStockApp/app/src/androidTest/java/com/example/mystockapp/ExampleInstrumentedTest.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../MyStockApp/app/src/main/AndroidManifest.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../MyStockApp/app/src/main/java/com/example/mystockapp/MainActivity.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../MyStockApp/app/src/main/res/drawable-v24/ic_launcher_foreground.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../MyStockApp/app/src/main/res/drawable/ic_launcher_background.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../MyStockApp/app/src/main/res/layout/activity_main.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../MyStockApp/app/src/main/res/mipmap-anydpi-v26/ic_launcher.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../MyStockApp/app/src/main/res/mipmap-anydpi-v26/ic_launcher_round.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../MyStockApp/app/src/main/res/mipmap-hdpi/ic_launcher.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../MyStockApp/app/src/main/res/mipmap-hdpi/ic_launcher_round.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../MyStockApp/app/src/main/res/mipmap-mdpi/ic_launcher.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../MyStockApp/app/src/main/res/mipmap-mdpi/ic_launcher_round.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../MyStockApp/app/src/main/res/mipmap-xhdpi/ic_launcher.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../MyStockApp/app/src/main/res/mipmap-xhdpi/ic_launcher_round.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../MyStockApp/app/src/main/res/mipmap-xxhdpi/ic_launcher.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../MyStockApp/app/src/main/res/mipmap-xxhdpi/ic_launcher_round.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../MyStockApp/app/src/main/res/mipmap-xxxhdpi/ic_launcher.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../MyStockApp/app/src/main/res/mipmap-xxxhdpi/ic_launcher_round.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../MyStockApp/app/src/main/res/values/colors.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../MyStockApp/app/src/main/res/values/strings.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../MyStockApp/app/src/main/res/values/styles.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../MyStockApp/app/src/test/java/com/example/mystockapp/ExampleUnitTest.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../MyStockApp/build.gradle" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../MyStockApp/gradle.properties" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../MyStockApp/gradle/wrapper/gradle-wrapper.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../MyStockApp/gradle/wrapper/gradle-wrapper.properties" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../MyStockApp/gradlew" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../MyStockApp/gradlew.bat" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../MyStockApp/settings.gradle" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../WebChatDemo/app/src/main/java/com/example/webchatdemo/ChatClient.java" beforeDir="false" afterPath="$PROJECT_DIR$/../WebChatDemo/app/src/main/java/com/example/webchatdemo/ChatClient.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../WebChatDemo/app/src/main/java/com/example/webchatdemo/MainActivity.java" beforeDir="false" afterPath="$PROJECT_DIR$/../WebChatDemo/app/src/main/java/com/example/webchatdemo/MainActivity.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../WebChatDemo/app/src/main/res/layout/activity_main.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../WebChatDemo/app/src/main/res/layout/activity_main.xml" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -100,7 +23,7 @@
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
-  <component name="ExecutionTargetManager" SELECTED_TARGET="WCR0218920002071" />
+  <component name="ExecutionTargetManager" SELECTED_TARGET="Nexus_5_API_27" />
   <component name="ExternalProjectsData">
     <projectState path="$PROJECT_DIR$">
       <ProjectState />
@@ -127,7 +50,7 @@
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="PropertiesComponent">
     <property name="android.sdk.path" value="$USER_HOME$/AppData/Local/Android/Sdk" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../Android/MyStockApp" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="settings.editor.selected.configurable" value="configurable.group.tools" />
   </component>
   <component name="RecentsManager">
