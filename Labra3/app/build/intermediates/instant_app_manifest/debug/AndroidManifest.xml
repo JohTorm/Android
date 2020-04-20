@@ -22,6 +22,7 @@
         android:supportsRtl="true"
         android:testOnly="true"
         android:theme="@style/AppTheme" >
+        <activity android:name="com.example.labra3.CompetitionActivity" />
         <activity android:name="com.example.labra3.MainActivity" >
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />

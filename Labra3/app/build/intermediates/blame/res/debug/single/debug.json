@@ -12,6 +12,10 @@
         "source": "C:\\Users\\Johan\\AndroidStudioProjects\\Labra3\\app\\src\\main\\res\\mipmap-xxxhdpi\\ic_launcher.png"
     },
     {
+        "merged": "C:\\Users\\Johan\\AndroidStudioProjects\\Labra3\\app\\build\\intermediates\\res\\merged\\debug\\layout_activity_competition.xml.flat",
+        "source": "C:\\Users\\Johan\\AndroidStudioProjects\\Labra3\\app\\src\\main\\res\\layout\\activity_competition.xml"
+    },
+    {
         "merged": "C:\\Users\\Johan\\AndroidStudioProjects\\Labra3\\app\\build\\intermediates\\res\\merged\\debug\\layout_activity_main.xml.flat",
         "source": "C:\\Users\\Johan\\AndroidStudioProjects\\Labra3\\app\\src\\main\\res\\layout\\activity_main.xml"
     },
